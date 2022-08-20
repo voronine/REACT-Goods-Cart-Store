@@ -1,0 +1,36 @@
+#root {
+  padding-top: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #f1f1f1;
+}
+
+.goods-field::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.goods-block {
+  width: 30%;
+  margin: 1%;
+  padding: 10px;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+}
+
+.goods-block img {
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+}
+
+table {
+  text-align: center;
+}
